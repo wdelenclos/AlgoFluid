@@ -1,0 +1,44 @@
+
+
+                                     PLACES (Ou LETT)
+                                     +----+
+
+                              +------------------+
+                              |                  |                                       ENV
+                              |0   EventPlace    |                                     +-----+
+                              |                  |
+                              +------------------+
+     +-------------+
+     |             |          +------------------+                                +---------------+
+     |             |          |                  |                                |               |
+     |   BASE DE   |          |2 TouristicPlace  |                         +--->  |  Demographic  |
+     |   POINTS    +----->    |                  |                         |      |               |            +-------------+
+     |             |          +------------------+                         |      +---------------+            |             |
+     |             |                                 +-+                   |                                   |             |
+     +-------------+          +------------------+     |                   |      +---------------+            |             |
+                              |                  |     |                   |      |               |            |             |
+Association à des             |1  TransportPlace |     |                   +----> |    Events     |            |             |
+objets par type de points et  |                  |     |                   |      |               |            |             |
+à leurs méthodes spécifiques  +------------------+     | Les méthodes      |      +---------------+            |             |
+                                                       | objets vont       |                              <----+   API/BDD   |
+En paramètre, le point        +------------------+     | chercher          |      +---------------+            |             |
+et le créneau horaire         |                  |     | dans des          |      |               |            |             |
+                              |3   LivingPlace   |     | objets            +--->  |     Time      |            |             |
+                              |                  |     | d'environnement   |      |               |            |             |
+                              +------------------+     | qui disposent     |      +---------------+            |             |
+                                                       | des informations  |                                   |             |
+                                                       | API               |      +---------------+            |             |
+                                       +               |                   |      |               |            +-------------+
+                                       |               +---------------------->   |   Touristic   |
+                                       |                                   |      |               |
+                                       |                                   |      +---------------+
+                                       |                                   |
+                                       |                                   |      +---------------+
+                                       |                                   |      |               |
+                                       |                                   +-->   |   Transport   |
+                                       v                                          |               |
+                                                                                  +---------------+
+
+                              Génération du JSON
+
+
