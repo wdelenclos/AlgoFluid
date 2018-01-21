@@ -23,7 +23,7 @@ class Time {
 
     /**
      * Get the value of hourForSleep
-     */ 
+     */
     public function getHourForSleep()
     {
         return $this->hourForSleep;

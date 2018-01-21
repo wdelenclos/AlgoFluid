@@ -5,8 +5,6 @@ class Touristic {
         $this->hour = $hour;
         $strangers = 927087;
         $frenchs = 407014;
-
-
     }
 
     /**
