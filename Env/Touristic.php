@@ -1,4 +1,5 @@
 <?php
+include_once('../Tools/TouristicList.php');
 class Touristic {
 
     public function __construct($hour) {
