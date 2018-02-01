@@ -11,7 +11,7 @@
      +-------------+
      |             |          +------------------+                                +---------------+
      |             |          |                  |                                |               |
-     |   BASE DE   |          |2 TouristicPlace  |                         +--->  |  Demographic  |
+     |   BASES DE  |          |2 TouristicPlace  |                         +--->  |  Demographic  |
      |   POINTS    +----->    |                  |                         |      |               |            +-------------+
      |             |          +------------------+                         |      +---------------+            |             |
      |             |                                 +-+                   |                                   |             |
@@ -39,6 +39,6 @@ et le créneau horaire         |                  |     | dans des          |   
                                        v                                          |               |
                                                                                   +---------------+
 
-                              Génération du JSON
+                              Génération de la frequ en table
 
 

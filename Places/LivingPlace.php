@@ -80,7 +80,7 @@ class LivingPlace {
         
         _Ce qui définit cette fréquentation:
 
-        On récupère la capacité du lieu dans l'objet d'environnement Demographic avec la fonction (getPlaceCapacity) - 1à à 100, 100 à 300, +3000 -> capacityIndex-> .02 / .08 / 0.8
+        On récupère la capacité du lieu dans l'objet d'environnement Demographic avec la fonction (getPlaceCapacity) - 1à à 100, 100 à 300, +3000 -> capacityIndex-> .02 / .08 / .8
         On récupère le code d'activité du lieu
         On récupère le facteur d'attractivité du lieu dans l'objet time en lui passant le code d'activité ->AttracivityIndex
         on recupère les transport coort touristic et event proximity coort
