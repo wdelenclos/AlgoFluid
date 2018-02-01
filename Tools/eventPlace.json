@@ -1,6 +1,7 @@
 [
     {
         "placeName": "Stade Yves-du-Manoir",
+        "capacity": 1,
         "geo_point_2d": "[48.9292771,2.24777169999993]",
         "epreuves": [
             {
@@ -16,6 +17,7 @@
     },
     {
         "placeName": "Esplanade des Invalides",
+        "capacity": 1,
         "geo_point_2d": "[48.85990100000001,2.3142669999999725]",
         "epreuves": [
             {
@@ -27,6 +29,7 @@
     },
     {
         "placeName": "Champs-Elysées",
+        "capacity": 1,
         "geo_point_2d": "[48.8657844,2.307314099999985]",
         "epreuves": [
             {
@@ -38,6 +41,7 @@
     },
     {
         "placeName": "Tour Eiffel",
+        "capacity": 1,
         "geo_point_2d": "[48.8582546,2.2925509000000375]",
         "epreuves": [
             {
@@ -53,6 +57,7 @@
     },
     {
         "placeName": "Champ de Mars",
+        "capacity": 1,
         "geo_point_2d": "[48.854872,2.2965639999999894]",
         "epreuves": [
             {
@@ -64,6 +69,7 @@
     },
     {
         "placeName": "Bercy Arena I et II",
+        "capacity": 1,
         "geo_point_2d": "[48.83853789999999,2.3785841999999775]",
         "epreuves": [
             {
@@ -79,6 +85,7 @@
     },
     {
         "placeName": "Grand Palais",
+        "capacity": 1,
         "geo_point_2d": "[48.865042,2.312889000000041]",
         "epreuves": [
             {
@@ -94,6 +101,7 @@
     },
     {
         "placeName": "Grande Halle de la Villette",
+        "capacity": 1,
         "geo_point_2d": "[48.89108349999999,2.3908500000000004]",
         "epreuves": [
             {
@@ -105,6 +113,7 @@
     },
     {
         "placeName": "Zénith Paris",
+        "capacity": 1,
         "geo_point_2d": "[48.8938119,2.3931569999999738]",
         "epreuves": [
             {
@@ -116,6 +125,7 @@
     },
     {
         "placeName": "Paris Expo - Halls I & IV",
+        "capacity": 1,
         "geo_point_2d": "[48.83047149999999,2.286754100000053]",
         "epreuves": [
             {
@@ -131,6 +141,7 @@
     },
     {
         "placeName": "Parc des Princes",
+        "capacity": 1,
         "geo_point_2d": "[48.8414356,2.253048700000022]",
         "epreuves": [
             {
@@ -142,6 +153,7 @@
     },
     {
         "placeName": "Stade Jean-Bouin",
+        "capacity": 1,
         "geo_point_2d": "[48.84332,2.252935999999977]",
         "epreuves": [
             {
@@ -153,6 +165,7 @@
     },
     {
         "placeName": "Stade Pierre de Coubertin",
+        "capacity": 1,
         "geo_point_2d": "[48.83507509999999,2.255697800000007]",
         "epreuves": [
             {
@@ -164,6 +177,7 @@
     },
     {
         "placeName": "Roland-Garros",
+        "capacity": 1,
         "geo_point_2d": "[48.84791609999999,2.244306300000062]",
         "epreuves": [
             {
