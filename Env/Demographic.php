@@ -53,4 +53,8 @@ class Demographic {
     {
         return $this->numberOfPopAvailableByDay;
     }
+    
+    public function getPlaceCapacity(){
+        
+    }
 }
