@@ -86,7 +86,7 @@ class LivingPlace {
         on recupère les transport coort touristic et event proximity coort
         ON RECUPERE LE NOMBRE DE LIEUX avec le meme code d'activité À PROXIMITÉ       -> simily
 
-        (((transportcoort/(300/transportdistance)+touristicecoort/(300/touristicecoort)+eventcoort/(300/eventcoort))/simily)*capacityIndex)*AttracivityIndex
+        (((transportcoort+touristicecoort+eventcoort)/simily)*capacityIndex)*AttracivityIndex
         */
         return $this->frequentation;
     }
