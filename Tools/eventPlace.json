@@ -23,9 +23,14 @@
         "geo_point_2d": [48.85990100000001,2.3142669999999725],
         "events": [
             {
-                "name":"Cyclisme",
+                "name":"Tir à l'arc H/F phase préliminaire ",
                 "filing" : 0.5,
-                "timeStamp":[678909876,5678765]
+                "timeStamp":[1723197601,1723111201,1723024801,1722938401,1722852001,1722765601,1722679201,1722866401,1722952801,1723039201]
+            },
+            {
+                "name":"Tir à l'arc H/F phase finale ",
+                "filing" : 0.5,
+                "timeStamp":[1722693601,1722780001,1723125601,1723212001]
             }
         ],
         "placeId": 2
@@ -36,9 +41,14 @@
         "geo_point_2d": [48.8657844,2.307314099999985],
         "events": [
             {
-                "name":"Cyclisme",
+                "name":"Cyclisme sur route Femme phase finale",
                 "filing" : 0.5,
-                "timeStamp":[678909876,5678765]
+                "timeStamp":[1722679201,1722686401,1722780001,1722787201,1722794401]
+            },
+            {
+                "name":"Cyclisme sur route Homme phase finale",
+                "filing" : 0.5,
+                "timeStamp":[1723024801,1723032001,1723039201,1723046401,1723050001]
             }
         ],
         "placeId": 3
@@ -49,7 +59,6 @@
         "geo_point_2d": [48.8582546,2.2925509000000375],
         "events": [
             {
-            
                 "name":"Marathon (natation en eau libre) Femme",
                 "filing" : 0.5,
                 "timeStamp":[1723370401,1723363201]
@@ -79,9 +88,14 @@
         "geo_point_2d": [48.854872,2.2965639999999894],
         "events": [
             {
-                "name":"Voleyball de plage",
+                "name":"Célébration Cérémonie d'ouverture",
                 "filing" : 0.5,
-                "timeStamp":[678909876,5678765]
+                "timeStamp":[1722628801,1722636001]
+            },
+            {
+                "name":"Célébration Cérémonie de fermeture",
+                "filing" : 0.5,
+                "timeStamp":[1724011201,1724018401]
             }
         ],
         "placeId": 5
@@ -151,10 +165,21 @@
         "geo_point_2d": [48.8938119,2.3931569999999738],
         "events": [
             {
-                "name":"Boxe",
+                "name":"Boxe H/F phase préliminaire",
                 "filing" : 0.5,
-                "timeStamp":[678909876,5678765]
+                "timeStamp":[ 1722693601,1722780001,1722866401,1722952801,1723039201,1723125601,1723212001,1723298401,1384801,1723471201,1723557601,1722715201,1722801601,1722888001,1722974401,1723060801,1723147201,1723233601,1723320001]
+            },
+            {
+                "name":"Boxe Femme phase finale",
+                "filing" : 0.5,
+                "timeStamp":[1723492801]
+            },
+            {
+                "name":"Boxe Homme phase finale",
+                "filing" : 0.5,
+                "timeStamp":[1723579201]
             }
+
         ],
         "placeId": 9
     },
@@ -303,9 +328,14 @@
         "geo_point_2d": [48.8938489,2.390260000000012],
         "events": [
             {
-                "name":"Voleyball de plage",
+                "name":"Célébration Cérémonie d'ouverture",
                 "filing" : 0.5,
-                "timeStamp":[678909876,5678765]
+                "timeStamp":[1722628801,1722636001]
+            },
+            {
+                "name":"Célébration Cérémonie de fermeture",
+                "filing" : 0.5,
+                "timeStamp":[1724011201,1724018401]
             }
         ],
         "placeId": 18
