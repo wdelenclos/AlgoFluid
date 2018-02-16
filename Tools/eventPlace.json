@@ -69,15 +69,14 @@
         "geo_point_2d": [48.8582546,2.2925509000000375],
         "events": [
             {
-                "name":"Marathon (natation en eau libre) Femme",
+                "name":"Marathon (natation) Femme",
                 "stepName": "Finale",
                 "stepFinal": true,
                 "filing" : 1.0,
                 "timeStamp":[1723370401,1723363201]
             },
             {
-            
-                "name":"Marathon (natation en eau libre) Homme",
+                "name":"Marathon (natation) Homme",
                 "stepName": "Finale",
                 "stepFinal": true,
                 "filing" : 1.0,
@@ -129,6 +128,13 @@
                 "stepFinal": false,
                 "filing" : 0.9,
                 "timeStamp":[1722643201,1722765601,1722852001,1722938401,1723024801,1723111201,1723197601]
+            },
+            {
+                "name":"Judo H/F",
+                "stepName": "Finale",
+                "stepFinal": true,
+                "filing" : 0.9,
+                "timeStamp":[1722693601,1722780001,1722866401,1722952801,1723039201,1723125601,1723212001]
             }
         ],
         "placeId": 6
@@ -192,7 +198,7 @@
                 "stepName": "Phase préliminaire",
                 "stepFinal": false,
                 "filing" : 0.5,
-                "timeStamp":[ 1722693601,1722780001,1722866401,1722952801,1723039201,1723125601,1723212001,1723298401,1384801,1723471201,1723557601,1722715201,1722801601,1722888001,1722974401,1723060801,1723147201,1723233601,1723320001]
+                "timeStamp":[1722693601,1722780001,1722866401,1722952801,1723039201,1723125601,1723212001,1723298401,1384801,1723471201,1723557601,1722715201,1722801601,1722888001,1722974401,1723060801,1723147201,1723233601,1723320001]
             },
             {
                 "name":"Boxe Femme",
@@ -383,7 +389,7 @@
         "placeId": 17
     },
     {
-        "placeName": "Parc de la Vilette",
+        "placeName": "Parc de la Villette",
         "capacity": 4000,
         "geo_point_2d": [48.8938489,2.390260000000012],
         "events": [
