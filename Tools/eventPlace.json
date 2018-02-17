@@ -340,7 +340,7 @@
     {
         "placeName": "Paris Arena II",
         "capacity": 8000,
-        "geo_point_2d": "[48.839836721397,2.3775529861450195]",
+        "geo_point_2d": [48.839836721397,2.3775529861450195],
         "events": [
             {
                 "name":"Lutte H/F",
@@ -370,7 +370,7 @@
     {
         "placeName": "Paris Arena I",
         "capacity": 8000,
-        "geo_point_2d": "[48.839836721397,2.3775529861450195]",
+        "geo_point_2d": [48.839836721397,2.3775529861450195],
         "events": [
             {
                 "name":"Judo H/F",
