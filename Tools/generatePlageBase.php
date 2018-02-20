@@ -1,8 +1,8 @@
 <?php
 //CONFIG
-$dateDuDebut = 1709856001; //vendredi 2 aout 2024 à 00:01
+$dateDuDebut = 1723075201; //vendredi 2 aout 2024 à 00:01
 $tailleDesPlages = 2; // en heure
-$nbDeJours = 11;
+$nbDeJours = 3;
 // --
 $taillePlageSec = $tailleDesPlages*3600;
 $max = $nbDeJours*(24/$tailleDesPlages);
