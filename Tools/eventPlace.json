@@ -19,6 +19,10 @@
                 "timeStamp":[1723665601,1723752001]
             }
         ],
+        "transports": [
+            {"name":"Torcadero", "numbers":[6, 9]},
+            {"name":"Iéna", "numbers":[9]}
+        ],
         "placeId": 1
     },
     {
@@ -40,6 +44,12 @@
                 "filing" : 0.86,
                 "timeStamp":[1722693601,1722780001,1723125601,1723212001]
             }
+        ],
+        "transports": [
+            {"name":"Invalides", "numbers":[8, 13, "C"]},
+            {"name":"Varenne", "numbers":[13]},
+            {"name":"Saint-François-Xavier", "numbers":[13]},
+            {"name":"Ecole milaire", "numbers":[8]}
         ],
         "placeId": 2
     },
