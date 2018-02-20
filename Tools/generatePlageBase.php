@@ -1,15 +1,15 @@
 <?php
 //CONFIG
-$dateDuDebut = 1723075201; //vendredi 2 aout 2024 à 00:01
+$dateDuDebut = 1722643201; //vendredi 2 aout 2024 à 00:01
 $tailleDesPlages = 2; // en heure
-$nbDeJours = 3;
+$nbDeJours = 9;
 // --
 $taillePlageSec = $tailleDesPlages*3600;
 $max = $nbDeJours*(24/$tailleDesPlages);
 $last=$dateDuDebut;
 $baseOfPlages = [];
 
-$DaysToExclude= ['00','02','04', '06', '08','22'];
+$DaysToExclude= ['00','02','04', '06', '08', '10', '12', '14', '16', '22'];
 
 for ($i = 0; $i <= $max; $i++){
     if(in_array(date('H', $last),$DaysToExclude)){
