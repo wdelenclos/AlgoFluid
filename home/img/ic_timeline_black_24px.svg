@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="24px" viewBox="0 0 44 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_timeline_black_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-0.0269591808%" y1="50.0269592%" x2="100.026959%" y2="50.0269592%" id="linearGradient-1">
+            <stop stop-color="#2C5BFC" offset="0%"></stop>
+            <stop stop-color="#42D5FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-100.000000, -1639.000000)">
+        <g id="bloc_2" transform="translate(98.000000, 1627.000000)">
+            <g id="ic_timeline_black_24px">
+                <polygon id="Shape" points="0 0 48 0 48 48 0 48"></polygon>
+                <path d="M46,16 C46,18.2 44.2,20 42,20 C41.64,20 41.3,19.96 40.98,19.86 L33.86,26.96 C33.96,27.28 34,27.64 34,28 C34,30.2 32.2,32 30,32 C27.8,32 26,30.2 26,28 C26,27.64 26.04,27.28 26.14,26.96 L21.04,21.86 C20.72,21.96 20.36,22 20,22 C19.64,22 19.28,21.96 18.96,21.86 L9.86,30.98 C9.96,31.3 10,31.64 10,32 C10,34.2 8.2,36 6,36 C3.8,36 2,34.2 2,32 C2,29.8 3.8,28 6,28 C6.36,28 6.7,28.04 7.02,28.14 L16.14,19.04 C16.04,18.72 16,18.36 16,18 C16,15.8 17.8,14 20,14 C22.2,14 24,15.8 24,18 C24,18.36 23.96,18.72 23.86,19.04 L28.96,24.14 C29.28,24.04 29.64,24 30,24 C30.36,24 30.72,24.04 31.04,24.14 L38.14,17.02 C38.04,16.7 38,16.36 38,16 C38,13.8 39.8,12 42,12 C44.2,12 46,13.8 46,16 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
