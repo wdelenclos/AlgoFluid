@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="39px" viewBox="0 0 32 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100.026959%" y1="50.0269592%" x2="-0.0269591808%" y2="50.0269592%" id="linearGradient-1">
+            <stop stop-color="#2C5BFC" offset="0%"></stop>
+            <stop stop-color="#42D5FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-603.000000, -1268.000000)">
+        <g id="bloc_1" transform="translate(60.000000, 212.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="features" transform="translate(224.000000, 1052.000000)">
+                <g id="item" transform="translate(311.000000, 0.000000)">
+                    <g id="ic_notifications_black_24px">
+                        <path d="M24,43 C26.2,43 28,41.2 28,39 L20,39 C20,41.2 21.78,43 24,43 Z M36,31 L36,21 C36,14.86 32.72,9.72 27,8.36 L27,7 C27,5.34 25.66,4 24,4 C22.34,4 21,5.34 21,7 L21,8.36 C15.26,9.72 12,14.84 12,21 L12,31 L8,35 L8,37 L40,37 L40,35 L36,31 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

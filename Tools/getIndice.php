@@ -1,10 +1,3 @@
+<?php 
 
-
-<?php
-
-$arr = [];
-foreach ($arr as &$value) {
-    $value = $value * 2;
-}
-
-max($array);
+$array = [0, 2,4,22];

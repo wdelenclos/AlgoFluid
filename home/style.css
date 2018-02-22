@@ -50,8 +50,14 @@ table {
     font-family: "Circular";
     src: url(./fonts/CircularStd-Bold.otf) format("truetype");
 }
+@font-face {
+    font-family: "CircularBook";
+    src: url(./fonts/CircularStd-Book.otf) format("truetype");
+}
 p { 
-    font-family: "Circular", Verdana, Tahoma;
+    font-family: "CircularBook", Verdana, Tahoma;
+    color: #9B9B9B;
+    line-height: 1.3;
 }
 .fm-btn--light{
     height: 45px;
@@ -63,7 +69,6 @@ p {
     color: #2c5bfc;
     border-radius: 3px;
 }
-
 .fm-cookies{
     padding-top: 6px;
     box-sizing: border-box;
@@ -73,6 +78,24 @@ p {
     background-color: #fff;
     height: 58px;
 }
+hr{
+    border: solid 1px rgba(0,0,0,0.2);
+    padding: 0 5%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.fm-firsttext{
+    padding: 50px 0;
+    color: #9B9B9B;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'CircularBook';
+}
 .fm-cookies p{
     padding-top: 14px;
     font-size: 12px;
@@ -81,17 +104,19 @@ p {
     margin-left: 50px;
 float: left;
 }
-header{
+header, .fm-try{
     text-align: center;
     width: 100%;
+    padding: 5%;
     top: 0;
+    box-sizing: border-box;
     height: 750px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c5bfc+0,42d5fc+100 */
-background: #2c5bfc; /* Old browsers */
-background: -moz-linear-gradient(left, #2c5bfc 0%, #42d5fc 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #2c5bfc 0%,#42d5fc 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #2c5bfc 0%,#42d5fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c5bfc', endColorstr='#42d5fc',GradientType=1 ); /* IE6-9 */
+    background: #2c5bfc; /* Old browsers */
+    background: -moz-linear-gradient(left, #2c5bfc 0%, #42d5fc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #2c5bfc 0%,#42d5fc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #2c5bfc 0%,#42d5fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c5bfc', endColorstr='#42d5fc',GradientType=1 ); /* IE6-9 */
 }
 header h1{
     padding-top: 240px;
@@ -105,4 +130,38 @@ header p {
 }
 .fm-pres--img{
     margin-top: 95px;
+    position: absolute;
+    left: 50%;
+margin-left: -25%;
+}
+.fm-datarealtime{
+    background-color: #FAFAFC;
+}
+.fm-service{
+    margin-top: 250px;
+}
+
+.fm-service ul{
+    display: block;
+    max-width: 960px;
+    height: 150px;;
+    margin: 50px auto 50px;;
+}
+.fm-service ul li {
+    width: 22%;
+    float: left;
+    padding: 0 50px;
+}
+.fm-service ul li h3{
+    font-family: 'Circular';
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.fm-service ul li img{
+   
+    margin-bottom: 16px;
+}
+.fm-card{
+    float: left;
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="40px" viewBox="0 0 36 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#00FEFB" offset="0%"></stop>
+            <stop stop-color="#01EDA2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-291.000000, -1268.000000)">
+        <g id="bloc_1" transform="translate(60.000000, 212.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="features" transform="translate(224.000000, 1052.000000)">
+                <g id="item">
+                    <g id="ic_date_range_black_24px" transform="translate(1.000000, 0.000000)">
+                        <path d="M18,22 L14,22 L14,26 L18,26 L18,22 Z M26,22 L22,22 L22,26 L26,26 L26,22 Z M34,22 L30,22 L30,26 L34,26 L34,22 Z M38,8 L36,8 L36,4 L32,4 L32,8 L16,8 L16,4 L12,4 L12,8 L10,8 C7.78,8 6.02,9.8 6.02,12 L6,40 C6,42.2 7.78,44 10,44 L38,44 C40.2,44 42,42.2 42,40 L42,12 C42,9.8 40.2,8 38,8 Z M38,40 L10,40 L10,18 L38,18 L38,40 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
