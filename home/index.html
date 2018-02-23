@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fluidmap | Visualisation et d'anticipation Paris 2024</title>
     <link rel="stylesheet" href="style.css">
+    <link rel=icon type=image/png sizes=32x32 href=https://s3.eu-west-2.amazonaws.com/fluidmap/static/favicon/favicon-32x32.png>
+    <link rel=icon type=image/png sizes=16x16 href=https://s3.eu-west-2.amazonaws.com/fluidmap/static/favicon/favicon-16x16.png>
 </head>
 <body>
     <div class="fm-cookies">
         <div class="sub">
             <p>En continuant votre navigation sur notre site, vous acceptez l’utilisation des cookies.</p>
-            <button class="fm-btn--light ">J'accepte</button>
+            <button class="fm-btn--light " id="cookies">J'accepte</button>
         </div>
     </div>
     <header>
 <h1 class="fm-title">
+      
     <img src="./img/img.png" alt="fluidmap" width="280">
 </h1>
 <p class="fm-subtitle">L’outil de visualisation et d'anticipation de densités de personnes en zone urbaine</p>
-<img class="fm-pres--img animated fadeIn" src="./img/home.png" alt="home" width="50%">
-
+<img class="fm-pres--img animated fadeInUp" src="./img/home.png" alt="home" width="50%">
+<div class="img"></div>
     </header>
     <div class="fm-service">
             <p class="fm-firsttext">Fluidmap est pensé pour vous aider à anticiper les densités de fréquentations de Paris 2024. </p>
@@ -36,30 +39,28 @@
     <div class="fm-datarealtime">
             <a href="" class="fm-arrow"></a>
         <img src="img/ic_timeline_black_24px.svg" alt="" width="30px">
-        <h2>
-            Données en temps réel 
-        </h2>
+        <h2>Données en temps réel </h2>
         <p>Avec Fluidmap, prennez le contrôle sur nos données, et explorez les différents evenements pour savoir où se situera les densités les plus importantes et quand !</p>
         <ul>
             <li>
-                <div class="fm-card"><img src="img/Preset 1.png" alt="" ></div>
+                <div class="fm-card animated fadeInUp"><img src="img/Preset 1.png" alt="" ></div>
             </li>
             <li>
-                <div class="fm-card"><img src="img/Preset 2.png" alt="" ></div>
+                <div class="fm-card animated fadeInUp"><img src="img/Preset 2.png" alt="" ></div>
             </li>
             <li>
-                <div class="fm-card"><img src="img/Preset 3.png" alt="" ></div>
+                <div class="fm-card animated fadeInUp"><img src="img/Preset 3.png" alt="" ></div>
             </li>
             <li>
-                <div class="fm-card"><img src="img/Preset 4.png" alt="" ></div>
+                <div class="fm-card animated fadeInUp"><img src="img/Preset 4.png" alt="" ></div>
             </li>
             <li>
-                    <div class="fm-card"><img src="img/Preset 1.png" alt="" ></div>
+                    <div class="fm-card animated fadeInUp"><img src="img/Preset 1.png" alt="" ></div>
                 </li>
         </ul>
     </div>
     <div class="fm-try">
-            <img src="img/img2.png" alt="">
+            <img class="animated fadeInUp" src="img/img2.png" alt="">
         <div class="sub">
         <h2>Naviguez à travers les épreuves
         </h2>
@@ -74,7 +75,7 @@
                 gratuitement</h2>
                 <br>
                 
-            <button class="fm-btn--primary">Découvrir l'application</button> <button class="fm-btn--light">Documentation api</button>
+            <a href="https://app.fluidmap.fr/"> <button class="fm-btn--primary">Découvrir l'application</button></a> <a href="https://api.fluidmap.fr/"><button  class="fm-btn--light">Accéder à l'api</button></a>
         </div>
     <div class="fm-map">
             <img src="img/ic_event_black_24px.svg" alt="">
@@ -87,7 +88,13 @@
                 <img src="img/Rectangle 12.png" alt="" width="100%">
     </div>
     <footer>
-
+        <p>© 2018 - Fluidmap | <a href="://api.fluidmap.fr">API</a> <a href="://app.fluidmap.fr">APP</a> <a href="://fluidmap.fr/cgu">CGU</a></p>
     </footer>
 </body>
+<script>
+
+    document.getElementById('cookies').addEventListener('click', function(){
+        document.getElementsByClassName('fm-cookies')[0].classList.add('hide');
+    })
+</script>
 </html>

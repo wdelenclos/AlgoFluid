@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fm-index" data-index="4">
+    </div>
+   
+</body>
+<script>
+    var indexElm = document.getElementsByClassName('fm-index')[0];
+    indexElm.innerHTML = '<ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>'
+    var nb = indexElm.getAttribute('data-index');
+
+    for(var i= 0; i< nb; i++){
+        indexElm.childNodes[0].childNodes[i].setAttribute("class", "filled")
+    }
+</script>
+</html>

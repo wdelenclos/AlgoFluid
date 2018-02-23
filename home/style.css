@@ -3523,6 +3523,10 @@ footer, header, hgroup, menu, nav, section {
   animation-name: slideOutUp;
 }
 
+/* FLUID */
+
+
+
 body {
 	line-height: 1;
 }
@@ -3634,8 +3638,11 @@ text-align: center
     margin-left: 15px;
     float: left;
 }
+a{
+    text-decoration: none;
+}
 header{
-    height: 750px;
+    height: 750px;  
 }
 header, .fm-try{
     position: relative;
@@ -3651,8 +3658,19 @@ header, .fm-try{
     background: linear-gradient(to right, #2c5bfc 0%,#42d5fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c5bfc', endColorstr='#42d5fc',GradientType=1 ); /* IE6-9 */
 }
+header .img{
+    background-image: url('img/map.png');
+    background-size: contain;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 750px;  
+    opacity: .2;
+}
 header h1{
-    padding-top: 180px;
+    padding-top: 80px;
     color: #fff;
 }
 .fm-try{
@@ -3767,4 +3785,60 @@ margin-left: -25%;
 .fm-card-glb{
     float: right;
 }
+footer{
+    height: 100px;
+}
+footer p{
+    margin: 70px 0 0 5% ;
+    color: #CECECE;
+}
+footer a {
+    color: #CECECE
+}
+.hide{
+    display: none;
+}
 
+@media screen and (max-width: 640px){
+    header, .fm-try{
+        height: 400px;
+        overflow: hidden;
+    }
+    header h1{
+      font-size: 18px;
+    }
+    .fm-service{
+        margin-top: 15px;
+    }
+    .fm-pres--img{
+        display: none;
+    }
+    .fm-cookies{
+        display: fixed;
+        bottom: 0;
+        height: 100px;
+        padding-bottom: 15px;
+    }
+    .fm-btn--light , .fm-btn--primary{
+        width: 90%;
+      
+    }
+    .fm-service ul li{
+        width: 70%;
+        margin-top: 25px;
+    }
+    .fm-datarealtime, .fm-map, .fm-try{
+        display: none;
+    }
+    .fm-try2{
+        padding: 50px;
+        background-color: #FAFAFC;
+    }
+    .fm-service ul{
+        height: 450px;
+    }
+    .fm-try2 .fm-btn--primary, .fm-try2 .fm-btn--light{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+}
