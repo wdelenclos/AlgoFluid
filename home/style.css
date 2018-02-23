@@ -3804,8 +3804,8 @@ footer a {
         height: 400px;
         overflow: hidden;
     }
-    header h1{
-      font-size: 18px;
+    .fm-title  img{
+     width: 200px!important;
     }
     .fm-service{
         margin-top: 15px;
